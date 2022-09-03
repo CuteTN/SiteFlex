@@ -1,0 +1,44 @@
+h3 {
+  font-family: Segoe UI;
+}
+
+.dirs-container {
+}
+
+.dir-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.checkbox {
+  cursor: pointer;
+  display: inline-block;
+  size: 30px;
+  margin-right: 8px;
+  accent-color: var(--vscode-button-background);
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.textarea {
+  resize: vertical;
+  width: 100%;
+}
+
+.mt-2px {
+  margin-top: 4px;
+}
+
+.rounded-4px {
+  border-radius: 4px;
+}

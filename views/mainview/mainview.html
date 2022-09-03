@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta 
+      http-equiv="Content-Security-Policy" 
+      content="default-src 'none'; style-src {{csp-source}}; script-src 'nonce-{{nonce}}'"
+    >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="{{extension-uri}}/views/common/reset.css" rel="stylesheet">
+    <link href="{{extension-uri}}/views/common/vscode.css" rel="stylesheet">
+    <link href="{{extension-uri}}/views/mainview/mainview.css" rel="stylesheet">
+    <title>SiteFlex</title>
+  </head>
+  <body>
+    <h3>Chị í i thật là dễ thương 😽</h3>
+
+    <hr>
+    <p>Directories filter:</p>
+    <div id="dirs-container">
+      Loading folders from current workspace...
+    </div>
+    
+    <div>
+      <button id="btn-select-all-dirs" class="mt-2px rounded-4px">Select chị í i</button>
+      <button id="btn-unselect-all-dirs" class="mt-2px rounded-4px">Unselect all</button>
+    </div>
+    <hr>
+    <p>Command:</p>
+    <textarea 
+      id="textbox-terminal-command" 
+      class="textarea"
+      type="text"
+    ></textarea>
+    <button id="btn-execute" class="mt-2px rounded-4px">Execute</button>
+	  <script nonce="{{nonce}}" src="{{extension-uri}}/views/mainview/mainview.js"></script>
+  </body>
+</html>

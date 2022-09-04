@@ -4,9 +4,11 @@ Thumbs.db
 /node_modules
 /out
 /.vs/
+/release/
 */node_modules/
 */out/
 */.vs/
+*/release/
 tsconfig.lsif.json
 *.lsif
 *.db

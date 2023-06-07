@@ -1,4 +1,4 @@
-//#region anti worning
+//#region anti warning
 // const document = {}
 // const window = {}
 // const acquireVsCodeApi = () => {}
@@ -16,7 +16,7 @@ function removeAllChildren(node) {
 function getDefaultState() {
   return {
     dirs: [],
-    terminalCommand: 'echo "Chị í i đáng iu"',
+    terminalCommand: 'echo "Hello World!"',
   }
 }
 
@@ -82,7 +82,7 @@ function getDefaultState() {
     function handleNoWorkSpaceFolder(payload) {
       const dirsContainer = document.getElementById("dirs-container");
       removeAllChildren(dirsContainer);
-      dirsContainer.textContent = "Please love chị í i and open a folder."
+      dirsContainer.textContent = "Please love open a folder."
     }
     //#endregion
 

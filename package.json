@@ -2,7 +2,7 @@
   "name": "SiteFlex",
   "displayName": "",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -17,12 +17,12 @@
     "commands": [
       {
         "command": "SiteFlex.executeCmdInEachDir",
-        "title": "Chị í i cute so let's execute the command in each dir!",
+        "title": "Send the command to each directory",
         "icon": "$(run-all)"
       },
       {
         "command": "SiteFlex.showLoveMessage",
-        "title": "Say love chị í i 💌",
+        "title": "Send love 💌",
         "icon": "$(heart)"
       }
     ],

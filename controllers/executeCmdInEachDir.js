@@ -23,12 +23,12 @@ function executeCmdInEachDir(context) {
 
     const workspaceFolder = (vscode.workspace.workspaceFolders || [])[0];
     if (!workspaceFolder) {
-      vscode.window.showErrorMessage("Please love chị í i and open a folder to run this command.");
+      vscode.window.showErrorMessage("Please open a folder to run this command.");
       return;
     }
 
     if (!state.dirs.find(dir => dir.isSelected)) {
-      vscode.window.showErrorMessage("Please love chị í i and select at least 1 directory.");
+      vscode.window.showErrorMessage("Please select at least 1 directory.");
       vscode.commands.executeCommand("siteflex.mainView.focus")
       return
     }
@@ -44,7 +44,7 @@ function executeCmdInEachDir(context) {
         ||
         vscode.window.createTerminal({
           name: terminalName,
-          message: "Chị í í đáng iu quá đi á 😽",
+          message: "😽 😽 😽",
         })
         
       const dirPath = vscode.Uri.joinPath(workspaceFolder.uri, dir.name).fsPath;
